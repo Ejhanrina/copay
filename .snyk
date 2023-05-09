@@ -1,0 +1,37 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - bitcore-wallet-client > crypto-wallet-core > ripple-lib > https-proxy-agent:
+        patched: '2023-05-09T20:48:09.807Z'
+  SNYK-JS-LODASH-567746:
+    - bitcore-wallet-client > lodash:
+        patched: '2023-05-09T20:48:09.807Z'
+    - cordova-custom-config > lodash:
+        patched: '2023-05-09T20:48:09.807Z'
+    - bitcore-wallet-client > awesome-typescript-loader > lodash:
+        patched: '2023-05-09T20:48:09.807Z'
+    - bitcore-wallet-client > preconditions > lodash:
+        patched: '2023-05-09T20:48:09.807Z'
+    - bitcore-wallet-client > bitcore-mnemonic > bitcore-lib > lodash:
+        patched: '2023-05-09T20:48:09.807Z'
+    - bitcore-wallet-client > crypto-wallet-core > bitcore-lib > lodash:
+        patched: '2023-05-09T20:48:09.807Z'
+    - bitcore-wallet-client > crypto-wallet-core > bitcore-lib-cash > lodash:
+        patched: '2023-05-09T20:48:09.807Z'
+    - bitcore-wallet-client > crypto-wallet-core > ripple-lib > lodash:
+        patched: '2023-05-09T20:48:09.807Z'
+    - bitcore-wallet-client > source-map-loader > async > lodash:
+        patched: '2023-05-09T20:48:09.807Z'
+    - cordova-custom-config > plist.js > xmlbuilder > lodash:
+        patched: '2023-05-09T20:48:09.807Z'
+    - bitcore-wallet-client > crypto-wallet-core > bitcore-lib-cash > bitcore-lib > lodash:
+        patched: '2023-05-09T20:48:09.807Z'
+    - bitcore-wallet-client > crypto-wallet-core > ripple-lib > ripple-binary-codec > lodash:
+        patched: '2023-05-09T20:48:09.807Z'
+    - bitcore-wallet-client > crypto-wallet-core > ripple-lib > ripple-lib-transactionparser > lodash:
+        patched: '2023-05-09T20:48:09.807Z'
+    - bitcore-wallet-client > crypto-wallet-core > ripple-lib > ripple-hashes > ripple-binary-codec > lodash:
+        patched: '2023-05-09T20:48:09.807Z'
